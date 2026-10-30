@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Blackspire">
+  <defs>
+    <linearGradient id="bsL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8e99aa"/></linearGradient>
+    <linearGradient id="bsR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9aa6b8"/><stop offset="1" stop-color="#3a414d"/></linearGradient>
+  </defs>
+  <path d="M32 3 L16 57 L32 49 Z" fill="url(#bsL)"/>
+  <path d="M32 3 L48 57 L32 49 Z" fill="url(#bsR)"/>
+  <rect x="12" y="59" width="40" height="2" rx="1" fill="#c7ced8"/>
+</svg>

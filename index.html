@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08090b" />
+    <title>Blackspire — Built to shape what comes next</title>
+    <meta
+      name="description"
+      content="Blackspire builds ventures, develops technology and connects people around ambitious ideas across technology, mobility, sports, lifestyle and education."
+    />
+    <meta property="og:title" content="Blackspire — Built to shape what comes next" />
+    <meta
+      property="og:description"
+      content="Blackspire builds ventures, develops technology and connects people around ambitious ideas across technology, mobility, sports, lifestyle and education."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="logo-mark.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intro-gate" id="introGate" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <div class="intro-inner">
+        <div class="intro-brand">
+          <img class="intro-logo" src="logo.png" alt="Blackspire Pvt. Ltd. dragon logo" width="400" height="366" />
+          <p class="intro-tag">Built to shape what comes next.</p>
+        </div>
+        <form class="login-card" id="loginForm" novalidate>
+          <h2 id="loginTitle">Welcome to Blackspire</h2>
+          <p class="login-sub">Sign in to enter the website.</p>
+          <label for="loginEmail">Email</label>
+          <input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
+          <label for="loginPass">Password</label>
+          <input id="loginPass" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" />
+          <p class="login-error" id="loginError" role="alert" aria-live="polite"></p>
+          <button class="btn primary login-btn" type="submit">Login <span>↗</span></button>
+          <p class="login-note">Your email is required to enter. Your password is never stored.</p>
+        </form>
+      </div>
+    </div>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="topbar">
+      <div class="wrap nav">
+        <a class="brand" href="index.html" aria-label="Blackspire home"><img class="brand-mark" src="logo-mark.svg" alt="" width="36" height="36" /><b>BLACK<span>SPIRE</span></b></a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">
+          Menu ☰
+        </button>
+        <nav class="navlinks" id="navLinks" aria-label="Main navigation">
+          <a href="about.html">About</a><a href="ventures.html">Ventures</a
+          ><a href="how-we-build.html">How We Build</a><a href="origin.html">Origin</a
+          ><a href="opportunities.html">Opportunities</a><a href="insights.html">Insights</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Build with us ↗</a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">A multi-venture company</div>
+            <h1>Built to shape <span class="outline">what comes</span> next.</h1>
+            <p>
+              Blackspire builds ventures, develops technology, and connects people around ambitious ideas.
+              Across industries, we work to turn meaningful problems into structured businesses with the
+              potential to grow.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="ventures.html">Explore the ecosystem <span>↘</span></a
+              ><a class="btn" href="contact.html">Build with Blackspire ↗</a>
+            </div>
+            <div class="hero-note">One vision. Multiple ventures. A global ambition.</div>
+          </div>
+          <div class="visual" role="img" aria-label="Abstract metallic spire surrounded by orbital lines">
+            <div class="orbital"></div>
+            <div class="orbital two"></div>
+            <div class="spire-scene">
+              <div class="spire">
+                <div class="face side"></div>
+                <div class="face front"></div>
+                <div class="edge"></div>
+                <div class="lightline"></div>
+                <div class="base"></div>
+              </div>
+            </div>
+            <span class="star s1"></span><span class="star s2"></span><span class="star s3"></span
+            ><span class="star s4"></span>
+            <div class="visual-label"><b>BLACKSPIRE / 001</b>Architecture of ideas</div>
+          </div>
+        </div>
+      </section>
+      <div class="ticker" aria-label="Blackspire principles">
+        <div class="wrap ticker-inner">
+          <span>Build with purpose</span><span>Validate before scaling</span
+          ><span>Operate with ownership</span><span>Think globally</span>
+        </div>
+      </div>
+      <section class="section" id="ventures">
+        <div class="wrap">
+          <div class="portfolio-top">
+            <div>
+              <div class="eyebrow">The portfolio</div>
+              <h2 class="section-heading"><span class="venture-count">29</span> ventures.<br />One spire.</h2>
+              <p class="section-intro">
+                Explore the concepts across the Blackspire ecosystem. Select a venture to understand the
+                problem it aims to address and its potential direction.
+              </p>
+            </div>
+          </div>
+          <div class="venture-grid" id="ventureList" aria-label="Venture preview"></div>
+          <p style="margin-top: 22px">
+            <a class="btn primary" href="ventures.html"
+              >View all <span class="venture-count">29</span> ventures ↗</a
+            >
+          </p>
+          <p class="status-note">
+            Portfolio descriptions express concepts and ambitions. Venture status, ownership, launch markets
+            and current availability must be confirmed before public launch.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap about-grid">
+          <div>
+            <div class="eyebrow">The thesis</div>
+            <h2 class="section-heading">One company. Many problems worth solving.</h2>
+          </div>
+          <div>
+            <p class="about-copy">
+              Blackspire Private Limited is building a multi-venture ecosystem across technology, mobility,
+              sports, lifestyle, education and emerging sectors. Each venture develops its own identity and
+              customer proposition, while shared experience, technology and talent may help ventures move
+              forward.
+            </p>
+            <div class="link-row">
+              <a class="btn" href="about.html">About Blackspire</a
+              ><a class="btn" href="how-we-build.html">How we build</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="areas">
+        <div class="wrap">
+          <div class="eyebrow">Where we work</div>
+          <h2 class="section-heading">Six areas. One way of building.</h2>
+          <p class="section-intro">
+            Each venture develops its own identity and customer proposition. These are the directions the
+            portfolio currently spans.
+          </p>
+          <div class="process">
+            <article class="process-step">
+              <h3>Technology</h3>
+              <p>Software, data and AI-led ideas built around real workflows.</p>
+            </article>
+            <article class="process-step">
+              <h3>Mobility & Science</h3>
+              <p>Vehicle services and marine biotechnology directions.</p>
+            </article>
+            <article class="process-step">
+              <h3>Lifestyle & Sports</h3>
+              <p>Consumer brands and sports-technology concepts.</p>
+            </article>
+            <article class="process-step">
+              <h3>Logistics & Trade</h3>
+              <p>Import-export and supply-chain directions.</p>
+            </article>
+            <article class="process-step">
+              <h3>Community & Programs</h3>
+              <p>Student, founder and creator communities.</p>
+            </article>
+            <article class="process-step">
+              <h3>Emerging</h3>
+              <p>Early ideas still being validated before any build.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="method">
+        <div class="wrap">
+          <div class="eyebrow">The operating method</div>
+          <h2 class="section-heading">From idea to operating business.</h2>
+          <p class="section-intro">
+            A disciplined path from identifying a real need to building, launching and improving a business.
+          </p>
+          <div class="process">
+            <article class="process-step">
+              <span class="stepno">PHASE 01</span>
+              <h3>Discover</h3>
+              <p>Find a meaningful problem and define who experiences it.</p>
+            </article>
+            <article class="process-step">
+              <span class="stepno">PHASE 02</span>
+              <h3>Validate</h3>
+              <p>Speak with customers and test assumptions with evidence.</p>
+            </article>
+            <article class="process-step">
+              <span class="stepno">PHASE 03</span>
+              <h3>Build</h3>
+              <p>Develop a focused product around the strongest learning.</p>
+            </article>
+            <article class="process-step">
+              <span class="stepno">PHASE 04</span>
+              <h3>Launch</h3>
+              <p>Put the solution in front of real customers and learn.</p>
+            </article>
+            <article class="process-step">
+              <span class="stepno">PHASE 05</span>
+              <h3>Operate</h3>
+              <p>Own the work, support customers and improve delivery.</p>
+            </article>
+            <article class="process-step">
+              <span class="stepno">PHASE 06</span>
+              <h3>Scale</h3>
+              <p>Grow when evidence and operations support the next step.</p>
+            </article>
+          </div>
+          <p style="margin-top: 22px"><a class="btn" href="how-we-build.html">See how we build ↗</a></p>
+        </div>
+      </section>
+      <section class="section" id="origin-teaser">
+        <div class="wrap about-grid">
+          <div>
+            <div class="eyebrow">Origin</div>
+            <h2 class="section-heading">A private operating system for ventures.</h2>
+          </div>
+          <div>
+            <p class="about-copy">
+              Origin is the internal space where ventures are onboarded and tracked. The public page gives an
+              overview only; no internal data is shown.
+            </p>
+            <div class="link-row">
+              <a class="btn" href="origin.html">About Origin</a><a class="btn" href="portal.html">Portal</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="opportunities-teaser">
+        <div class="wrap about-grid">
+          <div>
+            <div class="eyebrow">Opportunities</div>
+            <h2 class="section-heading">Founders, builders, operators, partners.</h2>
+          </div>
+          <div>
+            <p class="about-copy">
+              If you want to build, operate or partner on a venture, start with the opportunities page or send
+              us a note.
+            </p>
+            <div class="link-row">
+              <a class="btn primary" href="opportunities.html">View opportunities ↗</a
+              ><a class="btn" href="insights.html">Read insights</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="closing">
+        <div class="wrap">
+          <div class="eyebrow">Start a conversation</div>
+          <h2>Have an idea <span>worth building?</span></h2>
+          <p>Share a little about the opportunity you are exploring.</p>
+          <p><a class="btn primary" href="contact.html">Contact Blackspire ↗</a></p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="brand" href="index.html" aria-label="Blackspire home"><img class="brand-mark" src="logo-mark.svg" alt="" width="36" height="36" /><b>BLACK<span>SPIRE</span></b></a>
+            <p>Built to shape what comes next. A multi-venture company building across technology, mobility, lifestyle, sports and emerging sectors.</p>
+            <a class="btn primary" href="contact.html">Build with us ↗</a>
+          </div>
+          <nav class="footer-col" aria-label="Explore">
+            <h4>Explore</h4>
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="ventures.html">Ventures</a><a href="how-we-build.html">How we build</a>
+          </nav>
+          <nav class="footer-col" aria-label="Company">
+            <h4>Company</h4>
+            <a href="origin.html">Origin</a><a href="opportunities.html">Opportunities</a><a href="insights.html">Insights</a><a href="portal.html">Portal</a>
+          </nav>
+          <nav class="footer-col" aria-label="Connect">
+            <h4>Connect</h4>
+            <a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Blackspire Private Limited. All rights reserved.</span>
+          <a href="#main">Back to top ↑</a>
+        </div>
+        <div class="fineprint">
+          Concept website for review. Venture status, company disclosures, contact details, privacy notice,
+          terms, and any live application workflows must be verified and approved before production launch. No
+          partnerships, performance figures, or operating claims are implied.
+        </div>
+      </div>
+    </footer>
+    <button class="backtop" id="backTop" aria-label="Back to top">↑</button>
+    <script src="ventures-data.js"></script>
+    <script src="ventures.js"></script>
+    <script src="home.js"></script>
+    <script src="site.js"></script>
+    <script src="motion.js" defer></script>
+    <script src="intro.js"></script>
+  </body>
+</html>
